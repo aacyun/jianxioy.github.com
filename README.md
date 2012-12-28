@@ -3,7 +3,10 @@
 Copyright (c) 2012 Daryl Yeo 
 
 This is the [Jekyll](http://github.com/mojombo/jekyll) source for my
-[blog](http://darylyeo.com). Enjoy your stay!
+[blog](http://darylyeo.com). Many thanks to
+[mojombo](https://github.com/mojombo) for his awesome work on
+[Jekyll](http://github.com/mojombo/jekyll) and providing his blog as
+[reference](http://tom.preston-werner.com/). Enjoy your stay!
 
 # License
 
