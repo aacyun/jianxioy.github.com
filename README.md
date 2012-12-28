@@ -1,4 +1,4 @@
-# [Blind Alley Graffiti](http://darylyeo.com)
+# Blind Alley Graffiti
 
 Copyright (c) 2012 Daryl Yeo 
 
