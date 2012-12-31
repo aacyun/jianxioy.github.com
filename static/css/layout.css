@@ -136,7 +136,8 @@ h6 {
 			width: 90%;
 		}
 		#home-avatar {
-			left: 30px;
+			top: 30px;
+			left: 20px;
 		}
 		#home-content {
 			width: 55%;
