@@ -230,14 +230,15 @@ a:hover {
 		#logo-primary,
 		#nav-primary,
 		#avatar,
-		#home-content,
-		#latest,
 		.back-to-top,
 		.offsite-links {
 			width: 80%;
 		}
 		#home-avatar {
 			left: 30px;
+		}
+		#home-content {
+			width: 95%;
 		}
 		#nav-primary ul {
    			position: relative;
@@ -247,6 +248,7 @@ a:hover {
 			margin-bottom: 30px;
 		}
 		#latest {
+			width: 95%;
 			position: relative;
 			top: 20px;
 			left: 10px;
