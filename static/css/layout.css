@@ -229,9 +229,11 @@ a:hover {
 	@media only screen and (max-width: 479px) {
 		#logo-primary,
 		#nav-primary,
-		#avatar,
 		.back-to-top,
 		.offsite-links {
+			width: 95%;
+		}
+		#avatar {
 			width: 80%;
 		}
 		#home-avatar {
