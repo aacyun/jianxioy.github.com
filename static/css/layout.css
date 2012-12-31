@@ -153,6 +153,7 @@ a:hover {
 		#logo-primary,
 		#nav-primary,
 		#avatar,
+		#latest,
 		.footer,
 		.back-to-top,
 		.footer-nav, 
@@ -163,8 +164,7 @@ a:hover {
 			top: 60px;
 			left: 20px;
 		}
-		#home-content,
-		#latest {
+		#home-content{
 			width: 55%;
 		}
 		#nav-primary ul {
