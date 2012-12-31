@@ -220,11 +220,11 @@ a:hover {
 		}
 		.back-to-top {
 			position: relative;
-			left: 10px;
+			left: 0;
 		}
 		.offsite-links {
 			position: relative;
-			right: 30px;
+			right: 40px;
 			bottom: 10px;
 		}
 	}
