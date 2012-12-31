@@ -125,26 +125,7 @@ h6 {
 
 	/* Smaller than standard 960 (devices and browsers) */
 	/* Phones */
-	@media only screen and (max-width: 959px) {
-		#nav {
-			width: 100%;
-		}
-		#logo-primary,
-		#nav-primary,
-		#avatar {
-			width: 80%;
-		}
-		#home-avatar {
-			left: 30px;
-		}
-		#nav-primary ul {
-   			position: relative;
-   			top: 5px;
-			right: 105px;
-			bottom: 39px;
-			margin-bottom: 30px;
-		}
-	}
+	@media only screen and (max-width: 959px) {}
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	/* iPad */
@@ -178,7 +159,24 @@ h6 {
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
-		
+		#nav {
+			width: 100%;
+		}
+		#logo-primary,
+		#nav-primary,
+		#avatar {
+			width: 80%;
+		}
+		#home-avatar {
+			left: 30px;
+		}
+		#nav-primary ul {
+   			position: relative;
+   			top: 5px;
+			right: 105px;
+			bottom: 39px;
+			margin-bottom: 30px;
+		}
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
