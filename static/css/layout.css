@@ -130,7 +130,7 @@ h6 {
 		#logo-primary,
 		#nav-primary,
 		#avatar {
-			width: 90%;
+			width: 100%;
 		}
 		#home-avatar {
 			left: 20px;
@@ -151,7 +151,7 @@ h6 {
 		#logo-primary,
 		#nav-primary,
 		#avatar {
-			width: 100%;
+			width: 90%;
 		}
 		#home-avatar {
 			top: 60px;
