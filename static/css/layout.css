@@ -185,7 +185,7 @@ a:hover {
 		}
 		.footer-nav {
 			position: relative;
-			left: 0;
+			right: 20px;
 		}
 		.offsite-links {
 			position: relative;
