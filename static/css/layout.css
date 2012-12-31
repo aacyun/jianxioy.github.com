@@ -215,6 +215,18 @@ a:hover {
 			bottom: 39px;
 			margin-bottom: -20px;
 		}
+		#latest {
+			position: relative;
+			left: 30px;
+			bottom: 39px;
+		}
+		.back-to-top {
+			position: relative;
+			right: 10px;
+		}
+		.offsite-links {
+			position: relative;
+		}
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
