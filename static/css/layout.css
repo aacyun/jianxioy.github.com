@@ -216,6 +216,7 @@ a:hover {
 		}
 		#latest {
 			position: relative;
+			top: 20px;
 			left: 10px;
 		}
 		.back-to-top {
@@ -224,8 +225,8 @@ a:hover {
 		}
 		.offsite-links {
 			position: relative;
-			right: 500px;
-			bottom: 40px;
+			left: 0;
+			bottom: 43px;
 		}
 	}
 
