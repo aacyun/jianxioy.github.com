@@ -218,6 +218,7 @@ a:hover {
 			position: relative;
 			top: 20px;
 			left: 10px;
+			padding-bottom: 10px;
 		}
 		.back-to-top {
 			position: relative;
@@ -226,7 +227,7 @@ a:hover {
 		.offsite-links {
 			position: relative;
 			left: 0;
-			bottom: 43px;
+			bottom: 42px;
 		}
 	}
 
