@@ -119,10 +119,7 @@ a:hover {
 }
 
 .footer-nav {
-	text-indent: -9999px;
 	text-align: left;
-	width: 33.3%;
-	float: left;
 }
 
 .offsite-links {
@@ -188,7 +185,7 @@ a:hover {
 		}
 		.offsite-links {
 			position: relative;
-			left: 250px;
+			left: 350px;
 			top: -21px;
 		}
 	}
