@@ -124,10 +124,32 @@ h6 {
 ================================================== */
 
 	/* Smaller than standard 960 (devices and browsers) */
+	/* Phones */
 	@media only screen and (max-width: 959px) {
+		#nav,
+		#logo-primary,
+		#nav-primary,
+		#avatar {
+			width: 90%;
+		}
+		#home-avatar {
+			top: 60px;
+			left: 20px;
+		}
+		#home-content {
+			width: 55%;
+		}
+		#nav-primary ul {
+   			position: relative;
+			float: right;
+			right: -80px;
+			bottom: 38px;
+			margin-bottom: -20px;
+		}
 	}
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	/* iPad */
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
 		#nav,
 		#logo-primary,
