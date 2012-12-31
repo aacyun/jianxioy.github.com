@@ -112,14 +112,10 @@ a:hover {
     font-family: MetaBookLF-Roman, Arial, Verdana, sans-serif;
 }
 
-.back-to-top, .footer-nav, .offsite-links {
+.back-to-top, .offsite-links {
 	width: 33.3%;
 	position: relative;
 	right: 10px;
-}
-
-.footer-nav {
-	text-align: left;
 }
 
 .offsite-links {
@@ -172,7 +168,6 @@ a:hover {
 			right: -80px;
 			bottom: 39px;
 			margin-bottom: -20px;
-			font-size: 10px;
 		}
 		#latest {
 			position: relative;
@@ -182,16 +177,11 @@ a:hover {
 		.back-to-top {
 			position: relative;
 			right: 10px;
-			font-size: 10px;
-		}
-		.footer-nav, #logo-primary {
-			font-size: 10px;
 		}
 		.offsite-links {
 			position: relative;
 			left: 365px;
 			top: -21px;
-			font-size: 10px;
 		}
 	}
 
@@ -205,7 +195,6 @@ a:hover {
 		#avatar,
 		#latest,
 		.back-to-top,
-		.footer-nav, 
 		.offsite-links {
 			width: 80%;
 		}
@@ -244,7 +233,6 @@ a:hover {
 		#latest,
 		.footer,
 		.back-to-top,
-		.footer-nav, 
 		.offsite-links {
 			width: 80%;
 		}

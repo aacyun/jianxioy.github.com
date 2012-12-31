@@ -17,7 +17,7 @@ title: Blind Alley Graffiti
     {% for page in site.categories.blog limit:1 %}
         <h2><a href="{{ page.url }}">Latest blog post</a></h2>
         <br />
-        <a href="{{ page.url }}" class="links">{{ page.title }}</a>&nbsp&nbsp•&nbsp&nbsp<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
+        <a href="{{ page.url }}" class="links">{{ page.title }}</a>&nbsp;&nbsp;•&nbsp;&nbsp;<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
         <p>{{ page.excerpt }}</p>
     {% endfor %}
 </div>
