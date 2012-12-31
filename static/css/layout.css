@@ -136,6 +136,11 @@ h6 {
 		#home-content {
 			width: 90%;
 		}
+		#nav-primary ul li {
+   			position: relative;
+			float: right;
+			right: -50px;
+		}
 	}
 
 	/* All Mobile Sizes (devices and browser) */
