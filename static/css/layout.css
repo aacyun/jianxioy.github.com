@@ -16,13 +16,64 @@
 
 /* #Site Styles
 ================================================== */
+h1 {
+	font-family: ChaparralPro-Regular, Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+	font-size: 3.6rem;
+	font-weight: bold;
+	color: #000;
+	text-rendering: optimizeLegibility;
+}
+
+h2 {
+	font-family: ChaparralPro-Regular, Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+	font-size: 3.1rem;
+	font-weight: bold;
+	color: #000;
+	text-rendering: optimizeLegibility;
+}
+
+h3 {
+	font-family: ChaparralPro-Regular, Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+	font-size: 2.6rem;
+	font-weight: bold;
+	color: #000;
+	text-rendering: optimizeLegibility;
+}
+
+h4 {
+	font-family: ChaparralPro-Regular, Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+	font-size: 2.1rem;
+	font-weight: bold;
+	color: #000;
+	text-rendering: optimizeLegibility;
+}
+
+h5 {
+	font-family: ChaparralPro-Regular, Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+	font-size: 1.6rem;
+	font-weight: bold;
+	color: #000;
+	text-rendering: optimizeLegibility;
+}
+
+h6 {
+	font-family: ChaparralPro-Regular, Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+	font-size: 1.1rem;
+	font-weight: bold;
+	color: #000;
+	text-rendering: optimizeLegibility;
+}
+
 .nav-container {
     margin-top: 50px;
     border-bottom: 1px solid #000;
-    /* font-family: ChaparralPro-Regular; */
     font-family: MetaBookLF-Roman, Arial, Verdana, sans-serif;
 }
  
+#logo-primary {
+	margin: 0;
+}
+
 #logo-primary a {
     text-decoration: none;
 }
@@ -32,7 +83,9 @@
 }
 
 #nav-primary ul {
+	position: relative;
 	float: right;
+	right: -50px;
 }
 
 #nav-primary ul li {
@@ -41,7 +94,7 @@
     margin-bottom: 130px;
 }
  
-#nav-primary a{
+#nav-primary a {
     text-decoration: none;
 }
  
@@ -49,8 +102,25 @@
     text-decoration: underline;
 }
 
+.content {
+	margin: 50px 0;
+	font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+	font-size: 16px;
+}
+
 /* #Page Styles
 ================================================== */
+#home-avatar {
+	position: relative;
+	float: left;
+	right: 42px;
+}
+
+#home-content {
+	position: relative;
+	float: right;
+	right: -10px;
+}
 
 /* #Media Queries
 ================================================== */
