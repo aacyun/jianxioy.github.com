@@ -246,6 +246,21 @@ a:hover {
 			bottom: 39px;
 			margin-bottom: 30px;
 		}
+		#latest {
+			position: relative;
+			top: 20px;
+			left: 10px;
+			padding-bottom: 30px;
+		}
+		.back-to-top {
+			position: relative;
+			left: 0;
+		}
+		.offsite-links {
+			position: relative;
+			left: 0;
+			bottom: 20px;
+		}
 	}
 
 
