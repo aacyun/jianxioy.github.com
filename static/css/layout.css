@@ -164,13 +164,13 @@ h6 {
 		#home-avatar {
 			left: 30px;
 		}
-		#nav-primary ul {
+	/*	#nav-primary ul {
    			position: relative;
    			top: 5px;
 			right: 105px;
 			bottom: 39px;
 			margin-bottom: 30px;
-		}
+		}*/
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
