@@ -114,7 +114,8 @@ a:hover {
 
 .back-to-top, .footer-nav, .offsite-links {
 	width: 33.3%;
-	float: left;
+	position: relative;
+	right: 10px;
 }
 
 .footer-nav {
@@ -126,6 +127,8 @@ a:hover {
 
 .offsite-links {
 	text-align: right;
+	position: relative;
+	left: 10px;
 }
 
 /* #Page Styles
