@@ -156,7 +156,6 @@ a:hover {
 		#latest,
 		.footer,
 		.back-to-top,
-		.footer-nav, 
 		.offsite-links {
 			width: 90%;
 		}
@@ -184,8 +183,8 @@ a:hover {
 			right: 10px;
 		}
 		.footer-nav {
+			width: 80%;
 			position: relative;
-			right: 20px;
 		}
 		.offsite-links {
 			position: relative;
