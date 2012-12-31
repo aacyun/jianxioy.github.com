@@ -228,19 +228,19 @@ a:hover {
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
 		#nav, .footer {
-			width: 80%;
+			width: 70%;
 		}
 		#logo-primary,
 		#avatar,
 		.back-to-top,
 		.offsite-links {
-			width: 80%;
+			width: 70%;
 		}
 		#home-avatar {
 			left: 30px;
 		}
 		#home-content {
-			width: 80%;
+			width: 70%;
 		}
 		#nav-primary ul {
    			position: relative;
@@ -250,7 +250,7 @@ a:hover {
 			margin-bottom: 30px;
 		}
 		#latest {
-			width: 80%;
+			width: 70%;
 			position: relative;
 			top: 20px;
 			left: 10px;
