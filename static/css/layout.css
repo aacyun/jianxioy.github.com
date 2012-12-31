@@ -172,7 +172,7 @@ a:hover {
 			right: -80px;
 			bottom: 39px;
 			margin-bottom: -20px;
-			font-size: 11px;
+			font-size: 10px;
 		}
 		#latest {
 			position: relative;
@@ -182,16 +182,16 @@ a:hover {
 		.back-to-top {
 			position: relative;
 			right: 10px;
-			font-size: 11px;
+			font-size: 10px;
 		}
 		.footer-nav, #logo-primary {
-			font-size: 11px;
+			font-size: 10px;
 		}
 		.offsite-links {
 			position: relative;
 			left: 365px;
 			top: -21px;
-			font-size: 11px;
+			font-size: 10px;
 		}
 	}
 
