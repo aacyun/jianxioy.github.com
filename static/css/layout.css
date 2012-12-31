@@ -139,7 +139,8 @@ h6 {
 		}
 		#nav-primary ul {
    			position: relative;
-			right: -80px;
+   			top: 30px;
+			right: 100px;
 			bottom: 39px;
 			margin-bottom: -20px;
 		}
