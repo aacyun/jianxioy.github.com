@@ -135,14 +135,14 @@ h6 {
 			width: 80%;
 		}
 		#home-avatar {
-			left: 20px;
+			left: 30px;
 		}
 		#nav-primary ul {
    			position: relative;
-   			top: 30px;
-			right: 100px;
+   			top: 10px;
+			right: 110px;
 			bottom: 39px;
-			margin-bottom: -20px;
+			margin-bottom: 20px;
 		}
 	}
 
