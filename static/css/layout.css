@@ -179,9 +179,13 @@ a:hover {
 			left: 30px;
 			bottom: 39px;
 		}
+		.back-to-top {
+			position: relative;
+			right: 10px;
+		}
 		.offsite-links {
 			position: relative;
-			right: -50px;
+			right: -80px;
 			top: -21px;
 		}
 	}
