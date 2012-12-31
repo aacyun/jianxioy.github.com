@@ -153,19 +153,18 @@ a:hover {
 		#logo-primary,
 		#nav-primary,
 		#avatar,
-		#latest,
 		.footer,
 		.back-to-top,
 		.footer-nav, 
-		.offsite-links 
-		 {
+		.offsite-links {
 			width: 90%;
 		}
 		#home-avatar {
 			top: 60px;
 			left: 20px;
 		}
-		#home-content {
+		#home-content,
+		#latest {
 			width: 55%;
 		}
 		#nav-primary ul {
