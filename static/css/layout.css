@@ -16,6 +16,38 @@
 
 /* #Site Styles
 ================================================== */
+.nav-container {
+    margin-top: 50px;
+    border-bottom: 1px solid #000;
+    /* font-family: ChaparralPro-Regular; */
+    font-family: MetaBookLF-Roman, Arial, Verdana, sans-serif;
+}
+ 
+#logo-primary a {
+    text-decoration: none;
+}
+
+#logo-primary a:hover {
+    text-decoration: underline;
+}
+
+#nav-primary ul {
+	float: right;
+}
+
+#nav-primary ul li {
+    display: inline;
+    margin: 0 20px 0 0;
+    margin-bottom: 130px;
+}
+ 
+#nav-primary a{
+    text-decoration: none;
+}
+ 
+#nav-primary a:hover {
+    text-decoration: underline;
+}
 
 /* #Page Styles
 ================================================== */
