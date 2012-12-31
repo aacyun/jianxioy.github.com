@@ -230,19 +230,18 @@ a:hover {
 		#nav,
 		#logo-primary,
 		#nav-primary,
+		#home-content,
+		#latest,
 		.footer,
 		.back-to-top,
 		.offsite-links {
-			width: 75%;
+			width: 80%;
 		}
 		#avatar {
 			width: 80%;
 		}
 		#home-avatar {
 			left: 30px;
-		}
-		#home-content {
-			width: 95%;
 		}
 		#nav-primary ul {
    			position: relative;
