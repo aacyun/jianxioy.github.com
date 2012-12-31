@@ -227,11 +227,9 @@ a:hover {
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
-		#nav,
 		#logo-primary,
 		#nav-primary,
 		#avatar,
-		.footer,
 		.back-to-top,
 		.offsite-links {
 			width: 90%;
