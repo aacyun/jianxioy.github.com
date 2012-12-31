@@ -185,7 +185,7 @@ a:hover {
 		}
 		.offsite-links {
 			position: relative;
-			right: -80px;
+			left: 10px;
 			top: -21px;
 		}
 	}
