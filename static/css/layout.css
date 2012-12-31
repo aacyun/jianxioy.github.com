@@ -132,9 +132,14 @@ h6 {
 		#nav,
 		#logo-primary,
 		#nav-primary,
-		#avatar,
-		#home-content {
+		#avatar {
 			width: 90%;
+		}
+		#home-avatar {
+			right: 20px;
+		}
+		#home-content {
+			width: 50%;
 		}
 		#nav-primary ul {
    			position: relative;
