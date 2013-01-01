@@ -136,7 +136,7 @@ a:hover {
 	right: -10px;
 }
 
-.post-list-body, .post-body, .about-body {
+.post-body, .about-body {
 	position: relative;
 	width: 100%;
 }
