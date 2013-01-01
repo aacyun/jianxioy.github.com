@@ -145,7 +145,12 @@ a:hover {
 	margin-bottom: -40px;
 }
 
-.post-list-item, .post-body-inner, .about-body-inner {
+.post-list-item {
+	position: relative;
+	left: 160px;
+}
+
+.post-body-inner, .about-body-inner {
 	width: 640px;
 	position: relative;
 	margin: 0 auto;
@@ -231,9 +236,6 @@ a:hover {
 			left: 315px;
 			top: -21px;
 		}
-		.about {
-			width: 50%;
-		}
 	}
 
 	/* All Mobile Sizes (devices and browser) */
@@ -311,6 +313,17 @@ a:hover {
 			position: relative;
 			left: -30px;
 			bottom: 20px;
+		}
+	}
+
+	/* Resizing browser. */
+	@media only screen and (max-width: 780px) {
+		.post-list-title, .post-list-time, .post-list-item {
+			float: none;
+			width: auto;
+			margin-left: 0;
+			top: 20px;
+			left: 0;
 		}
 	}
 

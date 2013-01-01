@@ -4,7 +4,7 @@ title: Blind Alley Graffiti
 permalink: /blog/
 ---
 <div class="content post-list sixteen columns">
-    <ul class="post-list-body">
+    <ul class="post-list-body eleven columns">
         {% for post in site.posts %}
             <li class="post-list-item">
                 <div class="post-list-item-title-and-time">
@@ -12,6 +12,7 @@ permalink: /blog/
                 </div>
                 <p>{{ post.excerpt}}</p>
             </li>
+            <span class="five columns"></span>
             <br />
         {% endfor %}
     </ul>
