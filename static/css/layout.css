@@ -193,7 +193,18 @@ a:hover {
 ================================================== */
 
 	/* Smaller than standard 960 (devices and browsers) */
-	@media only screen and (max-width: 959px) {}
+	@media only screen and (max-width: 959px) {
+		.post-list-title, .post-list-time, .post-list-item {
+			float: none;
+			width: auto;
+			margin-left: 0;
+		}
+	}
+
+/*
+	@media only screen and (max-width: 959px) and (min-width: 768px) {
+		
+	}*/
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	/* iPad */
@@ -326,6 +337,7 @@ a:hover {
 			left: 0;
 		}
 	}
+
 
 
 /* #Font-Face
