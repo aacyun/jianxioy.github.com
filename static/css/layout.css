@@ -201,11 +201,6 @@ a:hover {
 		}
 	}
 
-/*
-	@media only screen and (max-width: 959px) and (min-width: 768px) {
-		
-	}*/
-
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	/* iPad */
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -251,8 +246,6 @@ a:hover {
 			float: none;
 			width: auto;
 			margin-left: 0;
-			top: 20px;
-			left: 0;
 		}
 	}
 
@@ -348,7 +341,7 @@ a:hover {
 		}
 	}
 
-	/* Resizing browser. */
+	/* Resizing browser.
 	@media only screen and (max-width: 780px) {
 		.post-list-title, .post-list-time, .post-list-item {
 			float: none;
@@ -357,7 +350,7 @@ a:hover {
 			top: 20px;
 			left: 0;
 		}
-	}
+	}*/
 
 
 
