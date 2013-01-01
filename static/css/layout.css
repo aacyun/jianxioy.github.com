@@ -136,7 +136,11 @@ a:hover {
 	right: -10px;
 }
 
-.post-body, .about-body {
+.about {
+	position: relative;
+	left: 150px;
+}
+.post-body, .about-body, .about-header {
 	position: relative;
 	width: 100%;
 }
@@ -147,21 +151,17 @@ a:hover {
 
 .post-list-item {
 	position: relative;
-	left: 160px;
+	left: 140px;
 }
 
 .post-body-inner, .about-body-inner {
-	width: 640px;
 	position: relative;
 	margin: 0 auto;
-}
-
-.post-body-inner, .about-body-inner {
 	max-width: 640px;
 	padding: 30px 0 0;
 }
 
-.post-header-inner, .about-header-inner {
+.post-header-inner {
 	position: relative;
 	left: 50%;
 	margin-left: -490px;
@@ -247,10 +247,20 @@ a:hover {
 			width: 80%;
 			margin-left: 0;
 		}
+		.post-body, .about {
+			position: relative;
+			left: 120px;
+		}
 	}
 
 	/* All Mobile Sizes (devices and browser) */
-	@media only screen and (max-width: 767px) {}
+	@media only screen and (max-width: 767px) {
+		.post-body, .about {
+			position: relative;
+			left: 0;
+			top: 20px;
+		}
+	}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -293,6 +303,11 @@ a:hover {
 			margin-left: 0;
 			top: 20px;
 			left: 0;
+		}
+		.post-body, .about {
+			position: relative;
+			left: 0;
+			top: 20px;
 		}
 	}
 
