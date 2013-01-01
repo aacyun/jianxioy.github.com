@@ -250,6 +250,7 @@ a:hover {
 		.post-body, .about {
 			position: relative;
 			left: 120px;
+			padding-bottom: 20px;
 		}
 	}
 
@@ -259,6 +260,7 @@ a:hover {
 			position: relative;
 			left: 0;
 			top: 20px;
+			padding-bottom: 20px;
 		}
 	}
 
@@ -308,6 +310,7 @@ a:hover {
 			position: relative;
 			left: 0;
 			top: 20px;
+			padding-bottom: 20px;
 		}
 	}
 
