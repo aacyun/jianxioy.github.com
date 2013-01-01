@@ -235,6 +235,9 @@ a:hover {
 			left: 315px;
 			top: -21px;
 		}
+		.about {
+      		width: 768px;
+   		}
 	}
 
 	/* All Mobile Sizes (devices and browser) */
