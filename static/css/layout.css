@@ -334,7 +334,7 @@ a:hover {
 		}
 		.post-list-title, .post-list-time, .post-list-item {
 			float: none;
-			width: 90%;
+			width: auto;
 			margin-left: 0;
 			top: 20px;
 			left: 0;
