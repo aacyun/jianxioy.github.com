@@ -130,13 +130,14 @@ pre {
 .back-to-top, .offsite-links {
 	width: 33.3%;
 	position: relative;
-	right: 10px;
+	right: 0;
 }
 
 .offsite-links {
 	text-align: right;
 	position: relative;
-	left: 10px;
+	left: 640px;
+	top: -21px;
 }
 
 /* #Page Styles
@@ -266,12 +267,10 @@ pre.terminal code {
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	/* iPad */
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
-		#nav,
 		#logo-primary,
 		#nav-primary,
 		#avatar,
 		#latest,
-		.footer,
 		.back-to-top,
 		.offsite-links {
 			width: 90%;
@@ -297,12 +296,12 @@ pre.terminal code {
 		}
 		.back-to-top {
 			position: relative;
-			right: 10px;
+			right: 0;
 		}
 		.offsite-links {
 			position: relative;
-			left: 315px;
-			top: -21px;
+			left: 77px;
+			bottom: 20px;
 		}
 		.post-list-title, .post-list-time, .post-list-item {
 			float: none;
@@ -358,7 +357,7 @@ pre.terminal code {
 		}
 		.offsite-links {
 			position: relative;
-			left: 0;
+			left: 84px;
 			bottom: 20px;
 		}
 		.post-list-title, .post-list-time, .post-list-item {
@@ -378,7 +377,8 @@ pre.terminal code {
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
-		#nav, .footer, #home-content, #latest {
+		#home-content,
+		#latest {
 			width: 90%;
 		}
 		#logo-primary,
@@ -409,8 +409,8 @@ pre.terminal code {
 		}
 		.offsite-links {
 			position: relative;
-			left: -30px;
-			bottom: 20px;
+			left: 60px;
+			top: -21px;
 		}
 		.post-list-title, .post-list-time, .post-list-item {
 			float: none;

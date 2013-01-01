@@ -16,26 +16,28 @@
                 <div class="post-body eleven columns">
                     <div class="post-body-inner eleven columns">
                         {{ content }}
-                        {% for post in site.categories.projects %}
-                            {% if post.url == page.url %}
-                                {% assign post_index0 = forloop.index0 %}
-                                {% assign post_index1 = forloop.index %}
+                        <div class="page-navigation">
+                            {% for post in site.categories.projects %}
+                                {% if post.url == page.url %}
+                                    {% assign post_index0 = forloop.index0 %}
+                                    {% assign post_index1 = forloop.index %}
+                                {% endif %}
+                            {% endfor %}
+                            {% for post in site.categories.projects %}
+                                {% if post_index0 == forloop.index %}
+                                    {% assign next_post = post.url %}
+                                {% endif %}
+                                {% if post_index1 == forloop.index0 %}
+                                    {% assign prev_post = post.url %}
+                                {% endif %}
+                            {% endfor %}
+                            {% if prev_post %}
+                                <a class="previous links" href="{{ prev_post }} ">« Previous</a> 
                             {% endif %}
-                        {% endfor %}
-                        {% for post in site.categories.projects %}
-                            {% if post_index0 == forloop.index %}
-                                {% assign next_post = post.url %}
+                            {% if next_post %}
+                                <a class="next links" href="{{ next_post }} ">Next »</a> 
                             {% endif %}
-                            {% if post_index1 == forloop.index0 %}
-                                {% assign prev_post = post.url %}
-                            {% endif %}
-                        {% endfor %}
-                        {% if prev_post %}
-                            <a class="previous links" href="{{ prev_post }} ">« Previous</a> 
-                        {% endif %}
-                        {% if next_post %}
-                            <a class="next links" href="{{ next_post }} ">Next »</a> 
-                        {% endif %}
+                        </div>
                     </div>
                 </div>
             </div>
