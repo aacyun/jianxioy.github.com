@@ -64,6 +64,10 @@ h6 {
 	text-rendering: optimizeLegibility;
 }
 
+body {
+	overflow-x: hidden;
+}
+
 a {
     text-decoration: none;
 }
@@ -230,9 +234,6 @@ a:hover {
 			position: relative;
 			left: 315px;
 			top: -21px;
-		}
-		.about-image {
-			width: 80%;
 		}
 	}
 
