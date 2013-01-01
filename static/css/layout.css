@@ -198,11 +198,11 @@ a:hover {
 		#nav-primary,
 		#avatar,
 		#latest,
+		.about-body,
 		.footer,
 		.back-to-top,
 		.offsite-links {
-			/*width: 90%;*/
-			width: 980px;
+			width: 90%;
 		}
 		#home-avatar {
 			top: 60px;
