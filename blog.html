@@ -1,6 +1,18 @@
 ---
 layout: default
-title: Blind Alley Graffiti - Daryl Yeo
+title: Blind Alley Graffiti
 permalink: /blog/
 ---
-Blog!
+<div class="content post-list">
+    <ul class="post-list-body">
+        {% for post in site.posts %}
+            <li class="post-list-item">
+                <div class="post-list-item-title-and-time">
+                    <a href="{{ post.url }}" class="links post-list-title">{{ post.title }}</a>&nbsp;&nbsp;•&nbsp;&nbsp;<time datetime="{{ post.date | date_to_xmlschema }}" class="post-list-time">{{ post.date | date_to_string }}</time>
+                </div>
+                <p>{{ post.excerpt}}</p>
+            </li>
+            <br />
+        {% endfor %}
+    </ul>
+</div>

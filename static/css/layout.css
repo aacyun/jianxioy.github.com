@@ -136,6 +136,54 @@ a:hover {
 	right: -10px;
 }
 
+.post-list-body, .post-body, .about-body {
+	position: relative;
+	width: 100%;
+}
+
+.post-list-body {
+	margin-bottom: -40px;
+}
+
+.post-list-item, .post-body-inner, .about-body-inner {
+	width: 640px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.post-body-inner, .about-body-inner {
+	max-width: 640px;
+	padding: 30px 0 0;
+}
+
+.post-header-inner, .about-header-inner {
+	position: relative;
+	left: 50%;
+	margin-left: -490px;
+	width: 980px;
+}
+
+.post-title, .post-time, .about-title, .about-subtitle {
+	width: 100%;
+	text-align: center;
+}
+
+.post-time {
+	display: block;
+}
+
+.about-img {
+	margin-bottom: 20px;
+}
+.about-image {
+	width: 100%;
+}
+
+.image-subtitles {
+	font-family: ChaparralPro-Regular, Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+	font-weight: bold;
+}
+
 /* #Media Queries
 ================================================== */
 
