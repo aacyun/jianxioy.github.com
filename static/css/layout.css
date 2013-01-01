@@ -125,6 +125,7 @@ pre {
 	overflow: hidden;
 	border-top: 1px solid #CCC;
     font-family: MetaBookLF-Roman, Arial, Verdana, sans-serif;
+    width: 100%;
 }
 
 .back-to-top, .offsite-links {
@@ -136,7 +137,7 @@ pre {
 .offsite-links {
 	text-align: right;
 	position: relative;
-	left: 640px;
+	float: right;
 	top: -21px;
 }
 
@@ -300,7 +301,7 @@ pre.terminal code {
 		}
 		.offsite-links {
 			position: relative;
-			left: 77px;
+			float: right;
 			bottom: 20px;
 		}
 		.post-list-title, .post-list-time, .post-list-item {
@@ -357,7 +358,7 @@ pre.terminal code {
 		}
 		.offsite-links {
 			position: relative;
-			left: 84px;
+			float: right;
 			bottom: 20px;
 		}
 		.post-list-title, .post-list-time, .post-list-item {
@@ -409,7 +410,7 @@ pre.terminal code {
 		}
 		.offsite-links {
 			position: relative;
-			left: 60px;
+			float: right;
 			top: -21px;
 		}
 		.post-list-title, .post-list-time, .post-list-item {
