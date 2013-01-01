@@ -247,6 +247,13 @@ a:hover {
 			left: 315px;
 			top: -21px;
 		}
+		.post-list-title, .post-list-time, .post-list-item {
+			float: none;
+			width: auto;
+			margin-left: 0;
+			top: 20px;
+			left: 0;
+		}
 	}
 
 	/* All Mobile Sizes (devices and browser) */
@@ -287,6 +294,13 @@ a:hover {
 			left: 0;
 			bottom: 20px;
 		}
+		.post-list-title, .post-list-time, .post-list-item {
+			float: none;
+			width: auto;
+			margin-left: 0;
+			top: 20px;
+			left: 0;
+		}
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -324,6 +338,13 @@ a:hover {
 			position: relative;
 			left: -30px;
 			bottom: 20px;
+		}
+		.post-list-title, .post-list-time, .post-list-item {
+			float: none;
+			width: auto;
+			margin-left: 0;
+			top: 20px;
+			left: 0;
 		}
 	}
 
