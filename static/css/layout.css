@@ -128,17 +128,17 @@ pre {
     width: 100%;
 }
 
-.back-to-top, .offsite-links {
-	width: 33.3%;
+.back-to-top {
+	width: 30%;
 	position: relative;
-	right: 0;
+	float: left;
 }
 
 .offsite-links {
-	text-align: right;
+	width: 70%;
 	position: relative;
 	float: right;
-	top: -21px;
+	text-align: right;
 }
 
 /* #Page Styles
@@ -296,13 +296,10 @@ pre.terminal code {
 			bottom: 39px;
 		}
 		.back-to-top {
-			position: relative;
-			right: 0;
+			width: 30%;
 		}
 		.offsite-links {
-			position: relative;
-			float: right;
-			bottom: 20px;
+			width: 60%;
 		}
 		.post-list-title, .post-list-time, .post-list-item {
 			float: none;
@@ -353,13 +350,10 @@ pre.terminal code {
 			padding-bottom: 30px;
 		}
 		.back-to-top {
-			position: relative;
-			left: 0;
+			width: 30%;
 		}
 		.offsite-links {
-			position: relative;
-			float: right;
-			bottom: 20px;
+			width: 50%;
 		}
 		.post-list-title, .post-list-time, .post-list-item {
 			float: none;
@@ -405,13 +399,10 @@ pre.terminal code {
 			padding-bottom: 30px;
 		}
 		.back-to-top {
-			position: relative;
-			left: 0;
+			width: 30%;
 		}
 		.offsite-links {
-			position: relative;
-			float: right;
-			top: -21px;
+			width: 60%;
 		}
 		.post-list-title, .post-list-time, .post-list-item {
 			float: none;
