@@ -72,6 +72,21 @@ a:hover {
     text-decoration: underline;
 }
 
+pre {
+	padding: 10px;
+	margin: 0;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	overflow: auto;
+	font-size: 13px;
+	font-family: monospace;
+	font-weight: bold;
+}
+
+.highlight {
+	margin-bottom: 20px;
+}
+
 .nav-container {
     margin-top: 50px;
     border-bottom: 1px solid #CCC;
@@ -136,11 +151,11 @@ a:hover {
 	right: -10px;
 }
 
-.about {
+.about, .post {
 	position: relative;
-	left: 150px;
+	left: 130px;
 }
-.post-body, .about-body, .about-header {
+.post-body, .about-body {
 	position: relative;
 	width: 100%;
 }
@@ -161,6 +176,31 @@ a:hover {
 	padding: 30px 0 0;
 }
 
+.post-body-inner h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+p code, ul code {
+    border: 1px solid #ddd;
+    background-color: #333;
+    font-size: 85%;
+    color: #fff;
+    padding: 0.05em .2em;
+	font-family: monospace;
+}
+
+pre.terminal {
+    border: 1px solid black;
+    background-color: #333;
+    color: white;
+    margin-bottom: 20px;
+}
+
+pre.terminal code {
+    background-color: #333;
+}
+
 .post-header-inner {
 	position: relative;
 	left: 50%;
@@ -177,6 +217,20 @@ a:hover {
 	display: block;
 }
 
+.post-body-inner ul {
+	list-style: disc;
+}
+
+.about-title, .about-subtitle {
+	position: relative;
+	left: 10px;
+}
+
+.about-header, .post-time {
+	position: relative;
+	right: 10px;
+}
+
 .about-img {
 	margin-bottom: 20px;
 }
@@ -187,6 +241,14 @@ a:hover {
 .image-subtitles {
 	font-family: ChaparralPro-Regular, Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 	font-weight: bold;
+}
+
+.previous {
+	float: left;
+}
+
+.next {
+	float: right;
 }
 
 /* #Media Queries
@@ -247,7 +309,7 @@ a:hover {
 			width: 80%;
 			margin-left: 0;
 		}
-		.post-body, .about {
+		.about, .post {
 			position: relative;
 			left: 120px;
 			padding-bottom: 20px;
@@ -256,7 +318,7 @@ a:hover {
 
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
-		.post-body, .about {
+		.about, .post {
 			position: relative;
 			left: 0;
 			top: 20px;
@@ -306,7 +368,7 @@ a:hover {
 			top: 20px;
 			left: 0;
 		}
-		.post-body, .about {
+		.about, .post {
 			position: relative;
 			left: 0;
 			top: 20px;
@@ -358,19 +420,6 @@ a:hover {
 			left: 0;
 		}
 	}
-
-	/* Resizing browser.
-	@media only screen and (max-width: 780px) {
-		.post-list-title, .post-list-time, .post-list-item {
-			float: none;
-			width: auto;
-			margin-left: 0;
-			top: 20px;
-			left: 0;
-		}
-	}*/
-
-
 
 /* #Font-Face
 ================================================== */

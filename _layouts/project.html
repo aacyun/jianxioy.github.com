@@ -8,23 +8,21 @@
     <body>
         {% include nav.html %}
         <div class="container">
-            <div class="content post sixteen columns">
-                <div class="post-header">
-                    <div class="post-header-inner">
-                        <h1 class="post-title">{{ page.title }}</h1>
-                        <time class="post-time" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
-                    </div>
+            <div class="content post eleven columns">
+                <div class="post-header eleven columns">
+                    <h1 class="post-title eleven columns">{{ page.title }}</h1>
+                    <time class="post-time eleven columns" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
                 </div>
-                <div class="post-body">
-                    <div class="post-body-inner">
+                <div class="post-body eleven columns">
+                    <div class="post-body-inner eleven columns">
                         {{ content }}
-                        {% for post in site.categories.blog %}
+                        {% for post in site.categories.projects %}
                             {% if post.url == page.url %}
                                 {% assign post_index0 = forloop.index0 %}
                                 {% assign post_index1 = forloop.index %}
                             {% endif %}
                         {% endfor %}
-                        {% for post in site.categories.blog %}
+                        {% for post in site.categories.projects %}
                             {% if post_index0 == forloop.index %}
                                 {% assign next_post = post.url %}
                             {% endif %}
