@@ -201,7 +201,8 @@ a:hover {
 		.footer,
 		.back-to-top,
 		.offsite-links {
-			width: 90%;
+			/*width: 90%;*/
+			width: 980px;
 		}
 		#home-avatar {
 			top: 60px;
