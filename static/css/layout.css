@@ -120,6 +120,11 @@ pre {
 	font-weight: bold;
 }
 
+p a {
+	font-family: ChaparralPro-Regular, Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+	font-weight: bold;
+}
+
 .footer {
 	padding: 20px 0 40px;
 	overflow: hidden;
@@ -333,6 +338,9 @@ pre.terminal code {
 			top: 20px;
 			padding-bottom: 20px;
 		}
+		.post-body {
+			bottom: 20px;
+		}
 		.img-404 {
 			position: relative;
 			left: 0;
@@ -378,6 +386,9 @@ pre.terminal code {
 			margin-left: 0;
 			top: 20px;
 			left: 0;
+		}
+		.post-body {
+			bottom: 20px;
 		}
 		.about, .post {
 			position: relative;
