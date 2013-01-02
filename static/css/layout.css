@@ -236,6 +236,7 @@ pre.terminal code {
 .about-img {
 	margin-bottom: 20px;
 }
+
 .about-image {
 	width: 100%;
 }
@@ -251,6 +252,11 @@ pre.terminal code {
 
 .next {
 	float: right;
+}
+
+.img-404 {
+	position: relative;
+	left: 170px;
 }
 
 /* #Media Queries
@@ -313,6 +319,10 @@ pre.terminal code {
 			left: 120px;
 			padding-bottom: 20px;
 		}
+		.img-404 {
+			position: relative;
+			left: 81px;
+		}
 	}
 
 	/* All Mobile Sizes (devices and browser) */
@@ -321,6 +331,11 @@ pre.terminal code {
 			position: relative;
 			left: 0;
 			top: 20px;
+			padding-bottom: 20px;
+		}
+		.img-404 {
+			position: relative;
+			left: 0;
 			padding-bottom: 20px;
 		}
 	}
@@ -368,6 +383,11 @@ pre.terminal code {
 			position: relative;
 			left: 0;
 			top: 20px;
+			padding-bottom: 20px;
+		}
+		.img-404 {
+			position: relative;
+			left: 58px;
 			padding-bottom: 20px;
 		}
 	}
