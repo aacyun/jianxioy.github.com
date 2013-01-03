@@ -158,6 +158,11 @@ p a {
 	right: -10px;
 }
 
+#latest {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 .about, .post {
 	position: relative;
 	left: 130px;
@@ -306,7 +311,8 @@ pre.terminal code {
 		#latest {
 			position: relative;
 			left: 30px;
-			bottom: 39px;
+			top: -40px;
+			margin-bottom: -20px;
 		}
 		.back-to-top {
 			width: 30%;
@@ -369,9 +375,9 @@ pre.terminal code {
 		#latest {
 			width: 95%;
 			position: relative;
-			top: 20px;
 			left: 10px;
 			padding-bottom: 30px;
+			margin-bottom: -20px;
 		}
 		.back-to-top {
 			width: 30%;
@@ -424,9 +430,7 @@ pre.terminal code {
 		}
 		#latest {
 			position: relative;
-			top: 20px;
 			left: 10px;
-			padding-bottom: 30px;
 		}
 		.back-to-top {
 			width: 30%;
