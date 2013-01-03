@@ -17,7 +17,7 @@
 /* #Site Styles
 ================================================== */
 h1 {
-	font-family: ChaparralPro-Regular, Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+	font-family: chaparral-pro, Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 	font-size: 3.6rem;
 	font-weight: bold;
 	color: #000;
@@ -25,7 +25,7 @@ h1 {
 }
 
 h2 {
-	font-family: ChaparralPro-Regular, Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+	font-family: chaparral-pro, Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 	font-size: 3.1rem;
 	font-weight: bold;
 	color: #000;
@@ -33,7 +33,7 @@ h2 {
 }
 
 h3 {
-	font-family: ChaparralPro-Regular, Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+	font-family: chaparral-pro, Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 	font-size: 2.6rem;
 	font-weight: bold;
 	color: #000;
@@ -41,7 +41,7 @@ h3 {
 }
 
 h4 {
-	font-family: ChaparralPro-Regular, Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+	font-family: chaparral-pro, Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 	font-size: 2.1rem;
 	font-weight: bold;
 	color: #000;
@@ -49,7 +49,7 @@ h4 {
 }
 
 h5 {
-	font-family: ChaparralPro-Regular, Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+	font-family: chaparral-pro, Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 	font-size: 1.6rem;
 	font-weight: bold;
 	color: #000;
@@ -57,7 +57,7 @@ h5 {
 }
 
 h6 {
-	font-family: ChaparralPro-Regular, Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+	font-family: chaparral-pro, Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 	font-size: 1.1rem;
 	font-weight: bold;
 	color: #000;
@@ -90,7 +90,7 @@ pre {
 .nav-container {
     margin-top: 50px;
     border-bottom: 1px solid #CCC;
-    font-family: MetaBookLF-Roman, Arial, Verdana, sans-serif;
+    font-family: ratio, Arial, Verdana, sans-serif;
 }
  
 #logo-primary {
@@ -116,12 +116,12 @@ pre {
 }
 
 .links {
-	font-family: ChaparralPro-Regular, Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+	font-family: chaparral-pro, Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 	font-weight: bold;
 }
 
 p a {
-	font-family: ChaparralPro-Regular, Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+	font-family: chaparral-pro, Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 	font-weight: bold;
 }
 
@@ -129,7 +129,7 @@ p a {
 	padding: 20px 0 40px;
 	overflow: hidden;
 	border-top: 1px solid #CCC;
-    font-family: MetaBookLF-Roman, Arial, Verdana, sans-serif;
+    font-family: ratio, Arial, Verdana, sans-serif;
     width: 100%;
 }
 
@@ -247,7 +247,7 @@ pre.terminal code {
 }
 
 .image-subtitles {
-	font-family: ChaparralPro-Regular, Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+	font-family: chaparral-pro, Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 	font-weight: bold;
 }
 
