@@ -11,7 +11,7 @@
     <meta property="article:author" content="http://darylyeo.com/about/" />
     <link rel="author" href="https://plus.google.com/113142563816697551777" />
     <link rel="canonical" href="{{ page.url }}" />
-    <meta property="og:url" content="http://darylyeo.com{{ page.url }}" />
+    <meta property="og:url" content="http://darylyeo.com{{ page.url }}{% if page.category == 'projects' or page.category == 'blog' %}/{% endif %}" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" href="/static/css/base.css" />
     <link rel="stylesheet" href="/static/css/skeleton.css" />
