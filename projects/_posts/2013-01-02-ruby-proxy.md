@@ -2,6 +2,7 @@
 layout: project 
 title: Ruby Proxy Server
 excerpt: A simple proxy server I did as a job interview coding assignment for SpeakerText. It was my first time using Ruby.
+description: A simple proxy server I did as a job interview coding assignment for SpeakerText. It was my first time using Ruby.
 category: projects
 ---
 I created this as part of a programming challenge from the people at SpeakerText
