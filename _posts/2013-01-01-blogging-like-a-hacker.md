@@ -2,6 +2,7 @@
 layout: post
 title: Blogging Like A Hacker
 excerpt: A new year approaches and one of my New Year's resolutions is to hack more. I began by creating a personal <a href="https://github.com/mojombo/jekyll">Jekyll</a> blog. Little did I know that it was going to be so fun.
+description: A new year approaches and one of my New Year's resolutions is to hack more. I began by creating a personal Jekyll blog. Little did I know that it was going to be so fun.
 category: blog
 ---
 After much procrastination, I have finally gotten down to creating a [Jekyll](https://github.com/mojombo/jekyll) blog. I've previously used [Posterous](https://posterous.com/) (which was awfully slow) and [Tumblr](https://www.tumblr.com/) (which was awfully web-based and mainstream). I've had this name since the [Blogspot](http://blogspot.com) days.
