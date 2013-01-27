@@ -15,4 +15,4 @@ We take for granted a lot of Apple's products these days. It is hard to imagine 
 
 The world will probably not have another Steve Jobs (or his equivalent) for a while. Jobs definitely made a dent in the world. He definitely left an indelible mark on this earth. I now see why there was such an emotional reaction to his death. Somehow, through his products, Jobs left a little bit of his personality in them and they touched us in one way or another. Through his genius, the world was altered  and as I type this out on my MacBook Air, I can only wish that I have such an ability to change the world.
 
-**Thanks** to [Jason Chen](http://visualchen.com/), [Lucas Tan](http://lucas-hacking.blogspot.com/) and [Kevin Bao](https://www.facebook.com/kzbao) for proofreading this blogpost.
+**Thanks** to [Jason Chen](http://visualchen.com/), [Lucas Tan](http://lucas-hacking.blogspot.com/) and [Kevin Bao](https://www.facebook.com/kzbao) for proofreading this blogpost. Feel free to discuss this post on [Hacker News](http://news.ycombinator.com/item?id=5125529), chat about this with me via [email](mailto:daryl@darylyeo.com) or [Twitter](http://twitter.com/jianxioy).
