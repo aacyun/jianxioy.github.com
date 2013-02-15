@@ -11,6 +11,7 @@ Day one was mostly administrivia, a day filled with meetings. First up was my aw
 
 <div class="about-img">
 <a href="/static/images/lumos/setup.jpg"><img class="about-image" src="/static/images/lumos/setup.jpg" alt="My devstation." title="My devstation."></a>
+<span class="image-subtitles">My devstation.</span>
 </div>
 
 The next day we met with Missy, the Director of HR. She explained to us in great detail about the employee benefits and other administrivia. I spent most of the week pairing with Anthony on small tasks where he would slowly introduce me to the architecture of the payments system and various [Ruby Gems](https://rubygems.org/) in the system. I made my first check in on Wednesday, modifying one of the in-house gems and my first deploy into production on Thursday. It felt good. Anthony introduced me to the basic deploy workflow for the Rails Team which is pretty standard in software engineering. It looks something like this:
@@ -32,9 +33,34 @@ I can't emphasize how important this is in a working environment. So far everyon
 
 At Lumos, we are constantly being fed. You can have all three meals if you wish. I usually have breakfast at home, lunch and dinner at work since I tend to stay late. We have two refridgerators chock full of healthy, organic food from [Bi-Rite Market](http://www.biritemarket.com/), an upscale grocery store in San Francisco (I've never had such delicious microwave meals until I tried the ones from Bi-Rite), a walk-in closet-sized snack bar, two fridges for beverages, one of them alcoholic and the other non-alcoholic, as well as a liquor bar (I'm talking a ton of hard liquor). If there's something you'd like, just add it to the list and they will stock the kitchen for you. Personally, the way to my heart is food. If I am well fed, I'm your bitch. Seriously, I don't mind working if my meals are taken care of. Besides, socializing over meals with fellow coworkers is great.
 
+<div class="about-img">
+<a href="/static/images/lumos/fridge.jpg"><img class="about-image" src="/static/images/lumos/fridge.jpg" alt="Fridge full of food." title="Fridge full of food."></a>
+<span class="image-subtitles">Fridge full of food.</span>
+</div>
+
+<div class="about-img">
+<a href="/static/images/lumos/beverages.jpg"><img class="about-image" src="/static/images/lumos/beverages.jpg" alt="Feeling thirsty?" title="Feeling thirsty?"></a>
+<span class="image-subtitles">Feeling thirsty?</span>
+</div>
+
+<div class="about-img">
+<a href="/static/images/lumos/snacks.jpg"><img class="about-image" src="/static/images/lumos/snacks.jpg" alt="So much snacks." title="So much snacks."></a>
+<span class="image-subtitles">So much snacks.</span>
+</div>
+
 #### 3. Amenities
 
 We have a laundry service in the office where laundry is picked up once a week and returned clean the next. This is particularly helpful since I can just dump my smelly gym clothes in the collection area after working out and then collect them the next day. Very convenient. The office space is also great. It's the standard Silicon Valley [open-office](http://en.wikipedia.org/wiki/Open_plan) concept. There are comfortable couches and nice office capsules which you can sleep... I mean work in! It's very open and has a lot of light, reminds me a little of the café area in Gates.
+
+<div class="about-img">
+<a href="/static/images/lumos/office.jpg"><img class="about-image" src="/static/images/lumos/office.jpg" alt="Open office." title="Open office."></a>
+<span class="image-subtitles">Open office.</span>
+</div>
+
+<div class="about-img">
+<a href="/static/images/lumos/cubby.jpg"><img class="about-image" src="/static/images/lumos/cubby.jpg" alt="Great office space." title="Great office space."></a>
+<span class="image-subtitles">Great office space.</span>
+</div>
 
 #### 4. Company Parties, Events and Trips
 
@@ -42,7 +68,14 @@ The company went to [Hawaii](http://en.wikipedia.org/wiki/Hawaii) and another lo
 
 #### 5. Recreation
 
-We have a ping-pong table, board games, an Xbox, a foosball table and a shuffleboard table. If those do not appeal to you, you can always eat, drink and be merry. If you feel like you've been eating too much, you also get free gym membership to [Sports Club LA](http://sf.sportsclubla.com/), arguably the best gym in the area. It's two blocks away from the office. Check out its sick promotional video:
+We have a ping-pong table, board games, an Xbox, a foosball table and a shuffleboard table. If those do not appeal to you, you can always eat, drink and be merry.
+
+<div class="about-img">
+<a href="/static/images/lumos/recreation.jpg"><img class="about-image" src="/static/images/lumos/recreation.jpg" alt="Our games room." title="Our games room."></a>
+<span class="image-subtitles">Our games room.</span>
+</div>
+
+If you feel like you've been eating too much, you also get free gym membership to [Sports Club LA](http://sf.sportsclubla.com/), arguably the best gym in the area. It's two blocks away from the office. Check out its sick promotional video:
 
 <iframe width="640" height="360" src="http://www.youtube.com/embed/_1hROYFfxuM" frameborder="0" allowfullscreen></iframe>
 
@@ -52,4 +85,4 @@ I could continue but I bet you're tired of me waxing lyrical about the company. 
 <a href="/static/images/lumos/amazing.jpg"><img class="about-image" src="/static/images/lumos/amazing.jpg" alt="Be amazing." title="Be amazing."></a>
 </div>
 
-**Thanks** to [Chris Friedrich](http://www.linkedin.com/pub/chris-friedrich/3/973/386), [Anthony Zacharakis](http://www.linkedin.com/pub/anthony-zacharakis/16/863/85), [Jason Chen](http://visualchen.com/), [Ming Han Teh](http://hanworks.tumblr.com/), [Hao Yee Chan](https://www.facebook.com/haoyee), [Kevin Bao](https://www.facebook.com/kzbao) and [Nikhil Tibrewal](https://www.facebook.com/nikhil.tibrewal.9) for proofreading this blogpost. Feel free to discuss this post on [Hacker News](http://news.ycombinator.com/item?id=5211933), chat about this with me via [email](mailto:daryl@darylyeo.com) or [Twitter](http://twitter.com/jianxioy). I might add some pictures in the near future.
+**Thanks** to [Chris Friedrich](http://www.linkedin.com/pub/chris-friedrich/3/973/386), [Anthony Zacharakis](http://www.linkedin.com/pub/anthony-zacharakis/16/863/85), [Jason Chen](http://visualchen.com/), [Ming Han Teh](http://hanworks.tumblr.com/), [Hao Yee Chan](https://www.facebook.com/haoyee), [Kevin Bao](https://www.facebook.com/kzbao) and [Nikhil Tibrewal](https://www.facebook.com/nikhil.tibrewal.9) for proofreading this blogpost. Feel free to discuss this post on [Hacker News](http://news.ycombinator.com/item?id=5211933), chat about this with me via [email](mailto:daryl@darylyeo.com) or [Twitter](http://twitter.com/jianxioy). Apologies for the poor quality of the pictures, I took them with my phone.
